@@ -149,6 +149,22 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <!-- </license> -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/iter/sequences/primes`][@stdlib/math/iter/sequences/primes]: create an iterator which generates a sequence of prime numbers.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -202,6 +218,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [cc0]: https://creativecommons.org/publicdomain/zero/1.0
 
 [apache-license]: https://www.apache.org/licenses/LICENSE-2.0
+
+<!-- <related-links> -->
+
+[@stdlib/math/iter/sequences/primes]: https://github.com/stdlib-js/math-iter-sequences-primes
+
+<!-- </related-links> -->
 
 </section>
 
