@@ -20,7 +20,7 @@ limitations under the License.
 
 # Prime Numbers
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > The first 100,000 prime numbers.
 
@@ -157,7 +157,7 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 ## See Also
 
--   [`@stdlib/math/iter/sequences/primes`][@stdlib/math/iter/sequences/primes]: create an iterator which generates a sequence of prime numbers.
+-   <span class="package-name">[`@stdlib/math/iter/sequences/primes`][@stdlib/math/iter/sequences/primes]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of prime numbers.</span>
 
 </section>
 
@@ -203,8 +203,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/datasets-primes-100k/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/datasets-primes-100k?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/datasets-primes-100k.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/datasets-primes-100k/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
