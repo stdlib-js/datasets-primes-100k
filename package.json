@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/datasets-primes-100k",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "The first 100,000 prime numbers.",
   "license": "Apache-2.0",
   "author": {
