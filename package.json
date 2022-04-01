@@ -1,0 +1,32 @@
+{
+  "name": "@stdlib/datasets-primes-100k",
+  "version": "0.0.0",
+  "description": "The first 100,000 prime numbers.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/datasets-primes-100k.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "datasets",
+    "dataset",
+    "data",
+    "list",
+    "primes",
+    "prime",
+    "numbers",
+    "integers",
+    "sequence",
+    "seq"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
