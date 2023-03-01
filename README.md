@@ -24,82 +24,17 @@ limitations under the License.
 
 > The first 100,000 prime numbers.
 
-<section class="installation">
 
-## Installation
 
-```bash
-npm install @stdlib/datasets-primes-100k
-```
 
-Alternatively,
 
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
--   To use as a general utility for the command line, install the corresponding [CLI package][cli-section] globally.
 
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
 
-</section>
 
-<section class="usage">
-
-## Usage
-
-```javascript
-var primes = require( '@stdlib/datasets-primes-100k' );
-```
-
-#### primes()
-
-Returns a list containing the first 100,000 prime numbers.
-
-```javascript
-var list = primes();
-// returns [ 2, 3, 5, ... ]
-```
-
-</section>
-
-<!-- /.usage -->
-
-<section class="examples">
-
-<!-- TODO: more creative example. -->
-
-## Examples
-
-<!-- eslint no-undef: "error" -->
-
-```javascript
-var discreteUniform = require( '@stdlib/random-base-discrete-uniform' );
-var primes = require( '@stdlib/datasets-primes-100k' );
-
-var list;
-var len;
-var idx;
-var i;
-
-list = primes();
-len = list.length;
-
-// Select random primes from the list...
-for ( i = 0; i < 100; i++ ) {
-    idx = discreteUniform( 0, len-1 );
-    console.log( list[ idx ] );
-}
-```
-
-</section>
-
-<!-- /.examples -->
-
-* * *
 
 <section class="cli">
 
-## CLI
+
 
 <section class="installation">
 
@@ -117,7 +52,7 @@ npm install -g @stdlib/datasets-primes-100k-cli
 
 <section class="usage">
 
-### Usage
+## Usage
 
 ```text
 Usage: primes-100k [options]
@@ -134,7 +69,7 @@ Options:
 
 <section class="examples">
 
-### Examples
+## Examples
 
 ```bash
 $ primes-100k
@@ -164,10 +99,9 @@ The data files (databases) are licensed under an [Open Data Commons Public Domai
 
 <section class="related">
 
-* * *
-
 ## See Also
 
+-   <span class="package-name">[`@stdlib/datasets-primes-100k`][@stdlib/datasets-primes-100k]</span><span class="delimiter">: </span><span class="description">the first 100,000 prime numbers.</span>
 -   <span class="package-name">[`@stdlib/math-iter/sequences/primes`][@stdlib/math/iter/sequences/primes]</span><span class="delimiter">: </span><span class="description">create an iterator which generates a sequence of prime numbers.</span>
 
 </section>
@@ -187,7 +121,7 @@ This package is part of [stdlib][stdlib], a standard library for JavaScript and 
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
-#### Community
+### Community
 
 [![Chat][chat-image]][chat-url]
 
@@ -205,8 +139,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <section class="links">
 
-[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-primes-100k.svg
-[npm-url]: https://npmjs.org/package/@stdlib/datasets-primes-100k
+[npm-image]: http://img.shields.io/npm/v/@stdlib/datasets-primes-100k-cli.svg
+[npm-url]: https://npmjs.org/package/@stdlib/datasets-primes-100k-cli
 
 [test-image]: https://github.com/stdlib-js/datasets-primes-100k/actions/workflows/test.yml/badge.svg?branch=main
 [test-url]: https://github.com/stdlib-js/datasets-primes-100k/actions/workflows/test.yml?query=branch:main
