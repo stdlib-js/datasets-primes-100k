@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@esm/index.mjs';
+import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@v0.1.0-esm/index.mjs';
 ```
 
 #### primes()
@@ -73,7 +73,7 @@ var list = primes();
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
-import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@esm/index.mjs';
+import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@v0.1.0-esm/index.mjs';
 
 var list;
 var len;
