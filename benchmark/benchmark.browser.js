@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isPositiveIntegerArray = require( '@stdlib/assert-is-positive-integer-array' ).primitives;
 var pkg = require( './../package.json' ).name;
 var primes = require( './../lib/browser.js' );
