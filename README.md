@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-primes-100k/tags). For example,
+
+```javascript
 import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@v0.2.0-deno/mod.js';
 ```
 
@@ -68,7 +73,7 @@ var list = primes();
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@deno/mod.js';
-import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@v0.2.0-deno/mod.js';
+import primes from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-primes-100k@deno/mod.js';
 
 var list;
 var len;
